@@ -26,7 +26,7 @@ public class RandomNumberGeneratorImpl implements RandomNumberGenerator {
 	public Set<Integer> generate(Integer limit, Integer rangeFrom, Integer rangeTo) {
 		return new Random().ints(rangeFrom, rangeTo)
 				  .distinct()
-				  .limit(1000)
+				  .limit(limit)
 				  .boxed()
 				  .collect(Collectors.toSet());
 	}

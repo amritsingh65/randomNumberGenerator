@@ -9,7 +9,7 @@ This workspace has implementation of the generating random 4-digit unique number
 
 ### Necessary tools for running the project.
 
-1. JAVA 8 or higher installed on the machine. - I recommend <b>JAVA-11</b>
+1. JAVA 8 or higher version installed on the machine. - Recommended <b>JAVA-11</b>
 
 2. <b>Git and Maven</b> installed on the system.
 
@@ -24,13 +24,13 @@ This workspace has implementation of the generating random 4-digit unique number
 
 1. Clone the project to any location.
 
-2. Go to the project root location
+2. Go to the project root location.
 
 3. Run command : <b>mvn clean</b>
 
-4. Run command : <b>mvn install</b>
+4. For running unit test cases run : <b> mvn test </b>
 
-5. Run command : <b>java -jar target/randomNumberGenerator-0.0.1-SNAPSHOT.jar > pathtoseethefile/output.txt </b>
+5. Run command : <b>mvn install</b>
 
-6. For running unit test cases run : <b> mvn test </b>
+6. Run command : <b>java -jar target/randomNumberGenerator-0.0.1-SNAPSHOT.jar > pathtoseethefile/output.txt </b>
 
