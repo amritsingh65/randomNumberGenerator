@@ -5,8 +5,8 @@ package com.westpac;
  * @github username : amritsingh65
  * </pre>
  * 
- * This controller class works as a decorator of the interface 
- *  and creating the object based on the request.
+ * This controller class works as a handler of the library 
+ *  and creating the object for generating the random numbers.
  **/
 public class RandomNumberGeneratorController {
 	private RandomNumberGenerator generator = null;
