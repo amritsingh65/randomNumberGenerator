@@ -7,8 +7,7 @@ This workspace has implementation of the generating random 4-digit unique number
 	src/main/java = Check code of the library implementation
 	src/main/test = Unit test cases of the library
 
-### IDE
-	Please use any IDE - STS, INTELIJ etc. 
+	Please use any IDE for checking the source code - STS, INTELIJ etc. 
 	Update the maven project - File > Maven > Update Project.
 
 #### Necessary tools for running the project.
