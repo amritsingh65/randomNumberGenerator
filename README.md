@@ -7,7 +7,11 @@ This workspace has implementation of the generating random 4-digit unique number
 	src/main/java = Check code of the library implementation
 	src/main/test = Unit test cases of the library
 
-### Necessary tools for running the project.
+### IDE
+	Please use any IDE - STS, INTELIJ etc. 
+	Update the maven project - File > Maven > Update Project.
+
+#### Necessary tools for running the project.
 
 1. JAVA 8 or higher version installed on the machine. - Recommended <b>JAVA-11</b>
 
@@ -20,7 +24,7 @@ This workspace has implementation of the generating random 4-digit unique number
 		<li><b>for maven : mvn -v</b></li>
 		</ul>
 
-### Steps for running the projects.
+##### Steps for running the projects.
 
 1. Clone the project to any location.
 
@@ -28,9 +32,9 @@ This workspace has implementation of the generating random 4-digit unique number
 
 3. Run command : <b>mvn clean</b>
 
-4. For running unit test cases run : <b> mvn test </b>
+4. Run command : <b>mvn install</b>
 
-5. Run command : <b>mvn install</b>
+5. For running unit test cases run : <b> mvn test </b>
 
 6. Run command : <b>java -jar target/randomNumberGenerator-0.0.1-SNAPSHOT.jar > pathtoseethefile/output.txt </b>
 
